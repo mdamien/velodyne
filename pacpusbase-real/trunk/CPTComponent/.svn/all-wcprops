@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pacpusbase/!svn/ver/1303/trunk/CPTComponent
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pacpusbase/!svn/ver/1232/trunk/CPTComponent/CMakeLists.txt
+END
+CPTComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pacpusbase/!svn/ver/1303/trunk/CPTComponent/CPTComponent.h
+END
+CPTComponent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pacpusbase/!svn/ver/1232/trunk/CPTComponent/CPTComponent.cpp
+END

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+  <can type="CanGateway" recording="false" source="vector" channel="1" speed="500"/>
+ </components>
+ <parameters/>
+  <sony type="Camera1394" node="0" format="0" mode="3" framerate="2" recording="false" recordFormat="ppm" reverseImage="false" display="false" zoom="64"/>
+</pacpus>

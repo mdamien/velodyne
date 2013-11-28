@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/filtering
+END
+gaussian_sum_filtering.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/filtering/gaussian_sum_filtering.hpp
+END
+filter_exception.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/filtering/filter_exception.hpp
+END
+bayes_filtering.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/filtering/bayes_filtering.hpp
+END
+kalman_filtering.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/filtering/kalman_filtering.hpp
+END
+particle_filtering.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/filtering/particle_filtering.hpp
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/pacpusframework/!svn/ver/104/trunk/build
+END
+build_win.bat
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pacpusframework/!svn/ver/91/trunk/build/build_win.bat
+END
+build_linux.sh
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pacpusframework/!svn/ver/104/trunk/build/build_linux.sh
+END

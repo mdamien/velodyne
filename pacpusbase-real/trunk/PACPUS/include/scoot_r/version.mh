@@ -1,0 +1,6 @@
+MESSAGE( Version ,
+FR( "version numéro 0.0.2" ) ;
+EN( "version number 0.0.2" ) ;
+)
+
+

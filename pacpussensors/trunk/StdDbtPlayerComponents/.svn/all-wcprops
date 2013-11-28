@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pacpussensors/!svn/ver/20/trunk/StdDbtPlayerComponents
+END
+ImageViewer.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/ImageViewer.h
+END
+DbtPlyStereoManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/DbtPlyStereoManager.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/CMakeLists.txt
+END
+DbtPlyImageManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pacpussensors/!svn/ver/18/trunk/StdDbtPlayerComponents/DbtPlyImageManager.cpp
+END
+DbtPlyStereoManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/DbtPlyStereoManager.h
+END
+DbtPlyImageManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/DbtPlyImageManager.h
+END
+DbtPlyVisionConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/DbtPlyVisionConfig.h
+END
+StdDbtPlayerComponentsConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/StdDbtPlayerComponentsConfig.h
+END
+ImageViewer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pacpussensors/!svn/ver/16/trunk/StdDbtPlayerComponents/ImageViewer.cpp
+END

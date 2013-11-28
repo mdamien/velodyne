@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/SerialCom/SBF
+END
+SerialCOM_Msg_ReceiverStatus.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/696/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_ReceiverStatus.hpp
+END
+SerialCOM_Msg_GEOLongTermCorr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pacpusbase/!svn/ver/692/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOLongTermCorr.hpp
+END
+SerialCOM_Msg_GEOIntegrity.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOIntegrity.hpp
+END
+SerialCOM_Msg_GEOMT00.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOMT00.hpp
+END
+SerialCOM_Msg_PosCovGeodetic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_PosCovGeodetic.hpp
+END
+SerialCOM_Msg_PVTGeodetic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_PVTGeodetic.hpp
+END
+SerialCOM_Msg_GEOFastCorr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOFastCorr.hpp
+END
+SerialCOM_Msg_ReceiverTime.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/690/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_ReceiverTime.hpp
+END
+SerialCOM_Msg_GPSAlm.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/690/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GPSAlm.hpp
+END
+SerialCOM_Msg_GEOServiceLevel.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pacpusbase/!svn/ver/695/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOServiceLevel.hpp
+END
+SerialCOM_Msg_GEOCorrections.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/658/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOCorrections.hpp
+END
+SerialCOM_Msg_PVTResiduals.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/703/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_PVTResiduals.hpp
+END
+SerialCOM_Protocol_SBF.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/667/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Protocol_SBF.hpp
+END
+SerialCOM_Msg_GenMeasEpoch.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GenMeasEpoch.hpp
+END
+SerialCOM_Msg_CNAVRaw.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/690/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_CNAVRaw.hpp
+END
+SerialCOM_Msg_EndOfMeas.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pacpusbase/!svn/ver/671/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_EndOfMeas.hpp
+END
+SerialCOM_Msg_xPPSOffset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pacpusbase/!svn/ver/701/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_xPPSOffset.hpp
+END
+SerialCOM_Msg_ExtEvent.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/702/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_ExtEvent.hpp
+END
+SerialCOM_Msg_VelCovGeodetic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_VelCovGeodetic.hpp
+END
+SerialCOM_Msg_GPSUtc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/697/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GPSUtc.hpp
+END
+SerialCOM_Msg_GEOPRNMask.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOPRNMask.hpp
+END
+SerialCOM_Msg_TrackingStatus.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/696/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_TrackingStatus.hpp
+END
+SerialCOM_Msg_Template.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_Template.hpp
+END
+SerialCOM_Msg_GEOIonoDelay.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/694/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOIonoDelay.hpp
+END
+SerialCOM_Msg_GEONav.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEONav.hpp
+END
+SerialCOM_Msg_GEOFastCorrDegr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOFastCorrDegr.hpp
+END
+SerialCOM_Msg_GEOClockEphCovMatrix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/pacpusbase/!svn/ver/695/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOClockEphCovMatrix.hpp
+END
+HOWTO_sbf_decode.txt
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pacpusbase/!svn/ver/658/trunk/PACPUS/include/SerialCom/SBF/HOWTO_sbf_decode.txt
+END
+SerialCOM_Msg_DOP.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_DOP.hpp
+END
+SerialCOM_Msg_BaseLine.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_BaseLine.hpp
+END
+SerialCOM_Msg_ShortMeasEpoch.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_ShortMeasEpoch.hpp
+END
+SerialCOM_Msg_GEORaw.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/695/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEORaw.hpp
+END
+SerialCOM_Msg_EndOfPVT.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_EndOfPVT.hpp
+END
+SerialCOM_Msg_ReceiverSetup.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/pacpusbase/!svn/ver/700/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_ReceiverSetup.hpp
+END
+SerialCOM_Msg_GEOIGPMask.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pacpusbase/!svn/ver/692/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOIGPMask.hpp
+END
+SerialCOM_Msg_VelCovCartesian.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_VelCovCartesian.hpp
+END
+SerialCOM_Msg_GEODegrFactors.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEODegrFactors.hpp
+END
+SerialCOM_Msg_GPSNav.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/690/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GPSNav.hpp
+END
+SerialCOM_Msg_GPSIon.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/690/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GPSIon.hpp
+END
+SerialCOM_Msg_Comment.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/694/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_Comment.hpp
+END
+SerialCOM_Msg_RAIMStatistics.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/691/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_RAIMStatistics.hpp
+END
+SerialCOM_Msg_GEONetworkTime.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusbase/!svn/ver/692/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEONetworkTime.hpp
+END
+SerialCOM_Msg_PVTCartesian.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/658/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_PVTCartesian.hpp
+END
+SerialCOM_Msg_GPSRaw.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/690/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GPSRaw.hpp
+END
+SerialCOM_Msg_PosCovCartesian.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/pacpusbase/!svn/ver/688/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_PosCovCartesian.hpp
+END
+SerialCOM_Msg_GEOAlm.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusbase/!svn/ver/692/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_GEOAlm.hpp
+END
+SerialCOM_Msg_MeasEpoch.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pacpusbase/!svn/ver/657/trunk/PACPUS/include/SerialCom/SBF/SerialCOM_Msg_MeasEpoch.hpp
+END

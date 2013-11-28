@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<dbiteUserInterface type="DbtPlyUserInterface"/>  	
+	<dbiteTrigger type="DbtPlyTrigger"/>	
+	<dbiteEngine type="DbtPlyEngine" datadir="D:\DATA\LOVe\25\"/>
+	<ALASCA type="DbtPlyAlascaManager" dbt="alasca.dbt" ui="0" binFile="alasca_data.utc"/>
+	<IMAGE type="DbtPlyImageManager" dbt="image_d.dbt" ui="1"/>
+ </components>
+ <parameters/>
+</pacpus>
+

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math
+END
+rng.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math/rng.hpp
+END
+ublas.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math/ublas.hpp
+END
+math_exception.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math/math_exception.hpp
+END
+utilities.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math/utilities.hpp
+END
+geodesy.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math/geodesy.hpp
+END
+distributions.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/PacpusTools/math/distributions.hpp
+END

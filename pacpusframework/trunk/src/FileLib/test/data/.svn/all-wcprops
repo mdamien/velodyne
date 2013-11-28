@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data
+END
+ok-empty-data.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/ok-empty-data.dbt
+END
+bad-empty-file.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/bad-empty-file.dbt
+END
+bad-wrong-type.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/bad-wrong-type.dbt
+END
+ok-single-data.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/ok-single-data.dbt
+END
+ok-more-than-2gb-data.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/ok-more-than-2gb-data.dbt
+END
+ok-many-data.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/ok-many-data.dbt
+END
+ok-more-than-4gb-data.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/ok-more-than-4gb-data.dbt
+END
+bad-wrong-version.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/bad-wrong-version.dbt
+END
+wrong-mintime-bigger-than-maxtime.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/wrong-mintime-bigger-than-maxtime.dbt
+END
+bad-signature.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/bad-signature.dbt
+END
+bad-incomplete-header.dbt
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusframework/!svn/ver/64/trunk/src/FileLib/test/data/bad-incomplete-header.dbt
+END

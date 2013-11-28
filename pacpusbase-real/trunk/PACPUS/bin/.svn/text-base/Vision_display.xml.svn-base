@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<VidereComponent 
+		type="VidereComponent" 
+		width="320" 
+		height="240" 
+		color="false"
+		rectified="true" 
+		framerate="15" 
+		recording="false" 
+		recordFormat="dbt" 
+		recordDestination="C:\ASER\AQTEST\"
+		reverseImage="false" 
+		display="false" 
+		calibrationfile="Videre.conf"/> 
+	<can type="CanGateway" recording="false" source="vector" channel="1" speed="500"/>
+	<gps type="GpsComponent" recording="false" port="COM1" baudrate="115200" bytesize="8" parity="0" stopbits="1"/>
+ </components>
+  <Bumblebee 
+		type="Bumblebee" 
+		width="320" 
+		height="240" 
+		color="false"
+		framerate="15" 
+		recording="false" 
+		recordFormat="ppm" 
+		recordDestination="C:\ASER\AQTEST\"
+		reverseImage="false" 
+		display="false" 
+		calibrationfile="Bumblebee.conf"/>
+<sony 
+		type="Camera1394" 
+		node="0" 
+		format="0" 
+		mode="3" 
+		framerate="2" 
+		recording="true" 
+		recordFormat="ppm" 
+		reverseImage="false" 
+		display="true" 
+		zoom="64"/>
+ <parameters/>
+</pacpus>
+
+<!--Documentation-->
+<!--
+Bumblebee::
+width: Width of grab images [320, 640]
+height: Height of grab images [240, 480] 
+color= Not supported yet[false] 
+framerate: Acquisition frame rates [30, 15, 7(7.5hz), 3(3.75hz)]
+recording: [true false] 
+recordFormat: [dbt bmp jpg jpeg png ppm tiff xbm xpm] 
+recordDestination: [path] Example:"C:\ASER\"
+reverseImage: [true false] WARNING Only for storage not supported for real-time
+display: [true false] 
+calibrationfile: Output file which contain the intrinsic and extrinsic parameters broadcasted to 
+			the stereo vision system, i.e. Bumblebee.conf
+
+VidereComponent::
+width: Width of grab images [320, 640]
+height: Height of grab images [240, 480] 
+color: [true false]
+rectified :[true false]
+framerate: Acquisition frame rates [30, 15, 7(7.5hz), 3(3.75hz)]
+recording: [true false] 
+recordFormat: [dbt bmp jpg jpeg png ppm tiff xbm xpm] 
+recordDestination: [path] Example:"C:\ASER\"
+reverseImage: [true false] 
+display: [true false] 
+calibrationfile: Output file which contain the intrinsic and extrinsic parameters broadcasted to 
+			the stereo vision system, i.e. Videre.conf. NOTE:: The name of the output file 
+			without the extension should be the same of the ini file containing the Videre 
+			parameters.
+WARNING: The stereo camera system should be calibrated at the usage resolution
+-->  	

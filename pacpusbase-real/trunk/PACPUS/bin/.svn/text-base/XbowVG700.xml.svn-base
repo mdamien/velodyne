@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+	<components>
+		<vg700 type="CrossbowComponent" port="COM1" baudrate="38400" bytesize="8" parity="0" stopbits="1" verbose="1"/>
+	</components>
+	<parameters/>
+</pacpus>

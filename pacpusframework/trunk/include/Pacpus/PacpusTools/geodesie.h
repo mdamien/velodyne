@@ -1,0 +1,198 @@
+// %pacpus:license{
+// This file is part of the PACPUS framework distributed under the
+// CECILL-C License, Version 1.0.
+// %}
+/// @file
+/// @author  Jean Laneurit <firstname.surname@utc.fr>
+/// @date    April, 2010
+/// @version $Id: geodesie.h 116 2013-06-25 11:44:25Z kurdejma $
+/// @copyright Copyright (c) UTC/CNRS Heudiasyc 2006 - 2013. All rights reserved.
+/// @brief Brief description.
+///
+/// Detailed description.
+
+#ifndef GEODESIE_H
+#define GEODESIE_H
+
+#include <cmath>
+#include <iostream>
+#include <vector>
+
+namespace Geodesie {
+
+#ifndef M_PI
+#   define M_PI 3.14159265358979323846
+#endif
+#ifndef M_PI_2
+#   define M_PI_2 1.57079632679489661923
+#endif
+#ifndef M_PI_4
+#   define M_PI_4 0.78539816339744830962
+#endif
+
+/// 9x9 matrix ???
+///
+/// @todo Documentation
+/// @todo Rewrite!
+struct Matrice
+{
+    /// Copy ctor
+    Matrice(const Matrice & A);
+    /// Ctor
+    Matrice();
+    /// @todo Documentation
+    void Apply(double v0, double v1, double v2, double & Mv0, double & Mv1, double & Mv2);
+
+    /// @todo Documentation
+    double c0_l0;
+    /// @todo Documentation
+    double c1_l0;
+    /// @todo Documentation
+    double c2_l0;
+
+    /// @todo Documentation
+    double c0_l1;
+    /// @todo Documentation
+    double c1_l1;
+    /// @todo Documentation
+    double c2_l1;
+
+    /// @todo Documentation
+    double c0_l2;
+    /// @todo Documentation
+    double c1_l2;
+    /// @todo Documentation
+    double c2_l2;
+};
+
+Matrice TransMat(const Matrice A);
+
+Matrice ProdMat(const Matrice A,const Matrice B);
+void Write(const Matrice A,std::ostream& out);
+
+////////////////////////////////////////////////////////////////////////
+/// @todo Documentation
+class Raf98
+{
+public:
+    /// Ctor of Raf98 class.
+    Raf98() {}
+    /// Dtor of Raf98 class.
+    ~Raf98();
+    
+    /// @todo Documentation
+    /// @param s filepath
+    bool Load(const std::string & s);
+    
+    /// @todo Documentation
+    /// @param longitude [degrees]
+    /// @param latitude [degrees]
+    /// @param Hwgs84 Output: interpolated altitude using WGS84 geoid model [meters]
+    bool Interpol(double longitudeDegrees, double latitudeDegrees, double * heightMetersWgs84) const;
+    
+private:
+    std::vector<double> m_dvalues;
+    double LitGrille(unsigned int c,unsigned int l) const;
+};
+
+////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////
+inline double Deg2Rad(double deg) {return deg*M_PI/180.0;}
+inline double Rad2Deg(double rad) {return rad*180.0/M_PI;}
+////////////////////////////////////////////////////////////////////////
+
+const double a_Lambert93=6378137;
+const double f_Lambert93=1 / 298.257222101;
+const double e_Lambert93=sqrt(f_Lambert93*(2-f_Lambert93));
+const double lambda0_Lambert93=Deg2Rad(3.0);//degres
+const double phi0_Lambert93=Deg2Rad(46.5);
+const double phi1_Lambert93=Deg2Rad(44.0);
+const double phi2_Lambert93=Deg2Rad(49.0);//degres
+const double X0_Lambert93=700000;//
+const double Y0_Lambert93=6600000;//
+const double n_Lambert93 = 0.7256077650;
+const double c_Lambert93 = 11754255.426;
+const double xs_Lambert93 = 700000;
+const double ys_Lambert93 = 12655612.050;
+
+const double GRS_a = 6378137;
+const double GRS_f = 1/298.257222101;
+const double GRS_b = GRS_a*(1-GRS_f);
+const double GRS_e = sqrt((pow(GRS_a,2) - pow(GRS_b,2)) / pow(GRS_a,2));
+
+////////////////////////////////////////////////////////////////////////
+void Geographique_2_Lambert93(const Raf98& raf98,double lambda,double phi,double he,Matrice in,double& E,double& N,double& h,Matrice& out);
+void Geographique_2_Lambert93(const Raf98& raf98,double lambda,double phi,double he,double& E,double& N,double& h);
+void Lambert93_2_Geographique(const Raf98& raf98,double E,double N,double h,double& lambda,double& phi,double& he);
+void Lambert93_2_Geographique(const Raf98& raf98,double E,double N,double h,Matrice in,double& lambda,double& phi,double& he,Matrice& out);
+/// Convert from geographique to ECEF.
+/// @param[in] longitude Longitude in radian.
+/// @param[in] latitude Latitude in radian.
+/// @param[in] he Height in meter.
+void Geographique_2_ECEF(double longitude, double latitude, double he, double& x, double& y, double& z);
+/// Convert from ECEF two ENU.
+/// @param[in] lon0 Longitude of the origin in radian.
+/// @param[in] lat0 Latitude of the origin in radian.
+/// @param[in] he0 Height of the origin in radian.
+void ECEF_2_ENU(double x,double y,double z,double& e,double& n,double& u,double lon0,double lat0,double he0);
+////////////////////////////////////////////////////////////////////////
+
+///ALGO0001
+/// @todo Rename
+double LatitueIsometrique(double latitude,double e);
+///ALGO0002
+/// @todo Rename
+double LatitueIsometrique2Lat(double latitude_iso,double e,double epsilon);
+
+///ALGO0003
+void Geo2ProjLambert(
+    double lambda,double phi,
+    double n, double c,double e,
+    double lambdac,double xs,double ys,
+    double& X,double& Y);
+///ALGO0004
+void Proj2GeoLambert(
+    double X,double Y,
+    double n, double c,double e,
+    double lambdac,double xs,double ys,
+    double epsilon,
+    double& lambda,double& phi);
+
+double ConvMerApp(double longitude);
+
+/// Converts Cartesian (x, y) coordinates to polar coordinates (r, theta)
+template <typename _T1, typename _T2>
+void cartesianToPolar(const _T1 x, const _T1 y, _T2 & r, _T2 & theta) {
+    r = std::sqrt(x*x + y*y);
+    theta = std::atan2(x, y);
+}
+
+/// Converts polar coordinates (r, theta) to Cartesian (x, y) coordinates
+template <typename _T1, typename _T2>
+void polarToCartesian(const _T1 r, const _T1 theta, _T2 & x, _T2 & y) {
+    x = r * std::cos(theta);
+    y = r * std::sin(theta);
+}
+
+/// Converts Cartesian (x, y, z) coordinates to spherical coordinates (r, theta, phi)
+/// Angles expressed in radians.
+template <typename _T1, typename _T2>
+void cartesianToSpherical(const _T1 x, const _T1 y, const _T1 z, _T2 & r, _T2 & theta, _T2 & phi) {
+    r = std::sqrt(x*x + y*y + z*z);
+    theta = std::acos(z / r);
+    phi = std::atan2(y, x);
+}
+
+/// Converts spherical coordinates (r, theta, phi) to Cartesian (x, y, z) coordinates.
+/// Angles expressed in radians.
+template <typename _T1, typename _T2>
+void sphericalToCartesian(const _T1 r, const _T1 theta, const _T1 phi, _T2 & x, _T2 & y, _T2 & z) {
+    x = r * std::sin(theta) * std::cos(phi);
+    y = r * std::sin(theta) * std::sin(phi);
+    z = r * std::cos(theta);
+}
+
+} // namespace Geodesie
+
+#endif // GEODESIE_H

@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/DbitePlayer
+END
+serverinterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pacpusbase/!svn/ver/500/trunk/PACPUS/include/DbitePlayer/serverinterface.h
+END
+DbtPlyFileManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusbase/!svn/ver/445/trunk/PACPUS/include/DbitePlayer/DbtPlyFileManager.h
+END
+cvisServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pacpusbase/!svn/ver/466/trunk/PACPUS/include/DbitePlayer/cvisServer.h
+END
+OmasUdpServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pacpusbase/!svn/ver/813/trunk/PACPUS/include/DbitePlayer/OmasUdpServer.h
+END
+DbtPlySerialComMsgManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/697/trunk/PACPUS/include/DbitePlayer/DbtPlySerialComMsgManager.h
+END
+OmasDataCollector.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusbase/!svn/ver/813/trunk/PACPUS/include/DbitePlayer/OmasDataCollector.h
+END
+DbtPlyTelemetreManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusbase/!svn/ver/346/trunk/PACPUS/include/DbitePlayer/DbtPlyTelemetreManager.h
+END
+DbtPlyRadarManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pacpusbase/!svn/ver/548/trunk/PACPUS/include/DbitePlayer/DbtPlyRadarManager.h
+END
+DbtPlyGyrokvhManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pacpusbase/!svn/ver/460/trunk/PACPUS/include/DbitePlayer/DbtPlyGyrokvhManager.h
+END
+DbtPlyEngineStateChart.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusbase/!svn/ver/844/trunk/PACPUS/include/DbitePlayer/DbtPlyEngineStateChart.h
+END
+SensorTcpServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/pacpusbase/!svn/ver/500/trunk/PACPUS/include/DbitePlayer/SensorTcpServer.h
+END
+DbtPlyUserInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pacpusbase/!svn/ver/846/trunk/PACPUS/include/DbitePlayer/DbtPlyUserInterface.h
+END
+DbtPlyAbsManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/423/trunk/PACPUS/include/DbitePlayer/DbtPlyAbsManager.h
+END
+DbtPlyGoogleEarth.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusbase/!svn/ver/841/trunk/PACPUS/include/DbitePlayer/DbtPlyGoogleEarth.h
+END
+DbtPlyTrigger.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pacpusbase/!svn/ver/845/trunk/PACPUS/include/DbitePlayer/DbtPlyTrigger.h
+END
+DbtPlyEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pacpusbase/!svn/ver/845/trunk/PACPUS/include/DbitePlayer/DbtPlyEngine.h
+END
+DbtPlyIOShMemTel.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/300/trunk/PACPUS/include/DbitePlayer/DbtPlyIOShMemTel.h
+END
+DbtPlyIO.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pacpusbase/!svn/ver/248/trunk/PACPUS/include/DbitePlayer/DbtPlyIO.h
+END

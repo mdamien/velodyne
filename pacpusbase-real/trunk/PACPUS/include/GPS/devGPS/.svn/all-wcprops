@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/pacpusbase/!svn/ver/1207/trunk/PACPUS/include/GPS/devGPS
+END
+ENU_GPSsol_dataset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pacpusbase/!svn/ver/755/trunk/PACPUS/include/GPS/devGPS/ENU_GPSsol_dataset.hpp
+END
+ModelObsExt.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pacpusbase/!svn/ver/1207/trunk/PACPUS/include/GPS/devGPS/ModelObsExt.hpp
+END
+basicGPSSolver.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/1131/trunk/PACPUS/include/GPS/devGPS/basicGPSSolver.hpp
+END
+RinexSBASBase.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pacpusbase/!svn/ver/836/trunk/PACPUS/include/GPS/devGPS/RinexSBASBase.hpp
+END
+GPSTK_Nav.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pacpusbase/!svn/ver/1207/trunk/PACPUS/include/GPS/devGPS/GPSTK_Nav.hpp
+END
+ubloxObs.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pacpusbase/!svn/ver/734/trunk/PACPUS/include/GPS/devGPS/ubloxObs.hpp
+END
+SBAS_dataset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pacpusbase/!svn/ver/836/trunk/PACPUS/include/GPS/devGPS/SBAS_dataset.hpp
+END
+uiIonoCompute.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pacpusbase/!svn/ver/721/trunk/PACPUS/include/GPS/devGPS/uiIonoCompute.hpp
+END
+uiLongTermCorrections.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusbase/!svn/ver/835/trunk/PACPUS/include/GPS/devGPS/uiLongTermCorrections.hpp
+END
+uiFastCorrections.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pacpusbase/!svn/ver/829/trunk/PACPUS/include/GPS/devGPS/uiFastCorrections.hpp
+END
+uiIonoGrid.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pacpusbase/!svn/ver/831/trunk/PACPUS/include/GPS/devGPS/uiIonoGrid.hpp
+END
+RinexSBASStream.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/836/trunk/PACPUS/include/GPS/devGPS/RinexSBASStream.hpp
+END
+ECEF2NED.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pacpusbase/!svn/ver/751/trunk/PACPUS/include/GPS/devGPS/ECEF2NED.hpp
+END
+constants.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/pacpusbase/!svn/ver/732/trunk/PACPUS/include/GPS/devGPS/constants.h
+END
+uiGnssSatTypeValue.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pacpusbase/!svn/ver/628/trunk/PACPUS/include/GPS/devGPS/uiGnssSatTypeValue.hpp
+END
+ionoCorrections.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusbase/!svn/ver/1131/trunk/PACPUS/include/GPS/devGPS/ionoCorrections.hpp
+END
+RAIMSolver.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/pacpusbase/!svn/ver/749/trunk/PACPUS/include/GPS/devGPS/RAIMSolver.hpp
+END
+RinexSBASData.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/pacpusbase/!svn/ver/840/trunk/PACPUS/include/GPS/devGPS/RinexSBASData.hpp
+END
+GPSTK_Obs.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pacpusbase/!svn/ver/749/trunk/PACPUS/include/GPS/devGPS/GPSTK_Obs.hpp
+END
+LatLong_UTMconversion.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pacpusbase/!svn/ver/732/trunk/PACPUS/include/GPS/devGPS/LatLong_UTMconversion.h
+END
+iteratedSolver.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/1131/trunk/PACPUS/include/GPS/devGPS/iteratedSolver.hpp
+END
+ENU_dataset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pacpusbase/!svn/ver/755/trunk/PACPUS/include/GPS/devGPS/ENU_dataset.hpp
+END
+basicDopplerSolver.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pacpusbase/!svn/ver/1131/trunk/PACPUS/include/GPS/devGPS/basicDopplerSolver.hpp
+END
+SBASCorrectedEphemerisRange.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pacpusbase/!svn/ver/835/trunk/PACPUS/include/GPS/devGPS/SBASCorrectedEphemerisRange.hpp
+END
+RinexSBASFilterOperators.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/836/trunk/PACPUS/include/GPS/devGPS/RinexSBASFilterOperators.hpp
+END
+uiGpsEphemerisStore.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/pacpusbase/!svn/ver/629/trunk/PACPUS/include/GPS/devGPS/uiGpsEphemerisStore.hpp
+END
+ECEF_dataset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/pacpusbase/!svn/ver/755/trunk/PACPUS/include/GPS/devGPS/ECEF_dataset.hpp
+END
+RinexSBASHeader.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/837/trunk/PACPUS/include/GPS/devGPS/RinexSBASHeader.hpp
+END
+fastCorrections.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/956/trunk/PACPUS/include/GPS/devGPS/fastCorrections.hpp
+END
+polarxObs.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pacpusbase/!svn/ver/957/trunk/PACPUS/include/GPS/devGPS/polarxObs.hpp
+END
+polarxGPSTKsolver.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pacpusbase/!svn/ver/1207/trunk/PACPUS/include/GPS/devGPS/polarxGPSTKsolver.hpp
+END
+PRNMask.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pacpusbase/!svn/ver/1131/trunk/PACPUS/include/GPS/devGPS/PRNMask.hpp
+END
+tropoCorrections.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusbase/!svn/ver/956/trunk/PACPUS/include/GPS/devGPS/tropoCorrections.hpp
+END

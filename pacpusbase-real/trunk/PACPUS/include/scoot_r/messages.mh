@@ -1,0 +1,74 @@
+
+//////////////////////////////////////////////////////////////////////////////
+//              The message returned when the client encounter errors
+//////////////////////////////////////////////////////////////////////////////
+
+MESSAGE(UNINITALIZED_CLIENT,
+FR( "Le client n'est pas initialise." );
+EN( "Uninitialized client." );
+// the standart way is to call init_remote_server at the end of the client constructor
+)
+
+
+MESSAGE(TIMEOUT,
+FR( "Timeout expire, le serveur n'a pas repondu." );
+EN( "Timeout expired, No reply from the server." );
+// "timeout: serveur discarded
+)
+
+MESSAGE(SERVER_DOWN,
+FR( "Il n'y a pas actuellement de serveur pour le service." );
+EN( "No registered server in the network." );
+// No available serveur or network delay
+)
+
+MESSAGE(TYPE_MISMATCH,
+FR( "Les types des donnees ne sont pas compatible entre le client et le serveur." );
+EN( "Unconsistent types between client and server." );
+// Type mismatch during communication;
+)
+
+MESSAGE(TIMEOUT_TOO_SHORT,
+FR( "Le serveur ne peut repondre à coup sur dans cet intervalle de temps;" );
+EN( "The server can't reply in such a small delay." );
+// Insufficient time for client
+)
+
+MESSAGE(RECOVER_TIME_TOO_SHORT,
+FR( "Le serveur ne peut redemarrer à coup sur dans cet intervalle de temps;" );
+EN( "The server can't restart in such a small delay." );
+)
+
+MESSAGE(TOO_MANY_CLIENTS,
+FR( "Le serveur supporte deja son nombre maximum de clients" );
+EN( "The server alredy serv as much clients as it can" );
+// Too much simultaneous request or too much clients connected to a server.
+)
+
+MESSAGE(RATE_TOO_HIGHT,
+FR( "Le serveur ne peut fonctionner à cette frequence.");
+EN( "The rate is too hight or the server.");
+// the rate required  by the client is more than can support the server
+)
+
+MESSAGE(OVERRATE,
+FR( "Le client tente de depasser la frequence negociee.");
+EN( "The client attempt to overpass the negociated rate.");
+// the client ask for the service too frequently.
+)
+
+///////////////: other errors
+
+MESSAGE(MEMORY_FULL,
+FR( "Memoire insufisante.");
+EN( "Memory full.");
+// The shared memory segment is full
+)
+
+MESSAGE(SERVICE_TABLE_FULL,
+FR( "La table des services est pleine.");
+EN( "Service table full");
+// The static table for the list of services is full:
+// there is more different services name than MAX_Service_Number.
+// for good performances, this table may be around 60% full.
+)

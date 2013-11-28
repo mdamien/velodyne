@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pacpusframework/!svn/ver/91/trunk/include/Pacpus/DbitePlayer
+END
+DbtPlyEngineStateChart.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusframework/!svn/ver/91/trunk/include/Pacpus/DbitePlayer/DbtPlyEngineStateChart.h
+END
+DbtPlyFileManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pacpusframework/!svn/ver/91/trunk/include/Pacpus/DbitePlayer/DbtPlyFileManager.h
+END
+DbitePlayerConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pacpusframework/!svn/ver/76/trunk/include/Pacpus/DbitePlayer/DbitePlayerConfig.h
+END
+DbtPlyUserInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pacpusframework/!svn/ver/91/trunk/include/Pacpus/DbitePlayer/DbtPlyUserInterface.h
+END
+DbtPlyTrigger.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusframework/!svn/ver/91/trunk/include/Pacpus/DbitePlayer/DbtPlyTrigger.h
+END
+DbtPlyEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusframework/!svn/ver/91/trunk/include/Pacpus/DbitePlayer/DbtPlyEngine.h
+END

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pacpus>
+<components>
+<dbiteEngine type="DbtPlyEngine" datadir="/home/pacpus/pacpus/dbt/" replay_mode="1"/>
+<dbiteUserInterface type="DbtPlyUserInterface"/>
+<dbiteTrigger type="DbtPlyTrigger"/>
+<velodyne type="DbtPlyVelodyneManager" ui="0" dbt="test2.dbt"/>
+</components>
+<parameters>
+<plugins list="/lib/libStdDbtPlayerComponents.so"/>
+</parameters>
+</pacpus>

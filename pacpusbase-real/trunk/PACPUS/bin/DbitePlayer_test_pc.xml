@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<dbiteUserInterface type="DbtPlyUserInterface"/>  	
+	<dbiteTrigger type="DbtPlyTrigger"/>
+	<dbiteEngine  
+	 type="DbtPlyEngine" 
+	 datadir="D:\2009_12_21_16_20_01\"/>
+	<StereoManager 
+	 type="DbtPlyStereoManager" 
+	 dbt="VidereComponent_LeftCam.dbt|VidereComponent_RightCam.dbt" 
+	 ui="1" 
+	 width="320" 
+	 height="240" 
+	 depth="1"
+	 secondShMem="true"/>
+	<can type="DbtPlyCanManager" 
+	 dbt="wheelspeed.dbt|lat_dyn.dbt|odometry.dbt|steering_wheel.dbt" 
+	 ui="0"/>
+	 <gps 
+	 type="DbtPlyGgaManager" 
+	 dbt="gps_gga.dbt" 
+	 ui="0"/>
+	<lidarManager 
+	 type="DbtPlyAlascaManager" 
+	 dbt="alasca.dbt" 
+	 ui="0" 
+	 binFile="alasca_data.utc"/>
+ </components>
+    <imageManager type="DbtPlyImageManager" dbt="sony.dbt" ui="0"/>
+ <IMAGE type="DbtPlyImageManager" dbt="VidereComponent_LeftCam.dbt" ui="1"/>
+ <parameters/>
+</pacpus>

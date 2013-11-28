@@ -1,0 +1,683 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/NMEA0183
+END
+ZDA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZDA.HPP
+END
+HDT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/HDT.HPP
+END
+NMEA0183_slim.H
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/NMEA0183_slim.H
+END
+ZWP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZWP.HPP
+END
+SATDAT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/SATDAT.HPP
+END
+SFI.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/SFI.HPP
+END
+WNC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/WNC.HPP
+END
+DPT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/DPT.HPP
+END
+HEAVE.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/HEAVE.hpp
+END
+MLIST.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pacpusbase/!svn/ver/338/trunk/PACPUS/include/NMEA0183/MLIST.HPP
+END
+BEC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/BEC.HPP
+END
+RTE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pacpusbase/!svn/ver/338/trunk/PACPUS/include/NMEA0183/RTE.HPP
+END
+VDR.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VDR.HPP
+END
+HEHDT.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/HEHDT.hpp
+END
+TIME__.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/722/trunk/PACPUS/include/NMEA0183/TIME__.hpp
+END
+RATIOPLS.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RATIOPLS.HPP
+END
+XDR.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pacpusbase/!svn/ver/338/trunk/PACPUS/include/NMEA0183/XDR.HPP
+END
+MANUFACT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/MANUFACT.HPP
+END
+GGA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/GGA.HPP
+END
+RPM.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RPM.HPP
+END
+ZTA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZTA.HPP
+END
+VTG.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VTG.HPP
+END
+XTE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/XTE.HPP
+END
+SPEED.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/SPEED.hpp
+END
+STDSPD.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/STDSPD.hpp
+END
+ZPI.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZPI.HPP
+END
+ZTE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZTE.HPP
+END
+ZTG.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZTG.HPP
+END
+VHW.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VHW.HPP
+END
+TTM.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/TTM.HPP
+END
+STDHRP.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/STDHRP.hpp
+END
+GOA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GOA.HPP
+END
+ZTI.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZTI.HPP
+END
+ASD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ASD.HPP
+END
+VLW.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VLW.HPP
+END
+GSA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GSA.HPP
+END
+DECCALOP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/DECCALOP.HPP
+END
+GOF.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GOF.HPP
+END
+VPW.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VPW.HPP
+END
+XTR.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/XTR.HPP
+END
+RMA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RMA.HPP
+END
+ZLZ.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZLZ.HPP
+END
+RMB.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RMB.HPP
+END
+RMC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RMC.HPP
+END
+RADARDAT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RADARDAT.HPP
+END
+OSD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/OSD.HPP
+END
+GOP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GOP.HPP
+END
+UTMWGS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/UTMWGS.hpp
+END
+TEP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/TEP.HPP
+END
+MHU.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/MHU.hpp
+END
+GDA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GDA.HPP
+END
+NMEA0183.H
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/NMEA0183.H
+END
+HCC.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/HCC.hpp
+END
+GST.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GST.HPP
+END
+GSV.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pacpusbase/!svn/ver/480/trunk/PACPUS/include/NMEA0183/GSV.HPP
+END
+WCV.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/WCV.HPP
+END
+P.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/P.HPP
+END
+GDF.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GDF.HPP
+END
+APB.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/APB.HPP
+END
+GLA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GLA.HPP
+END
+SENTENCE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/SENTENCE.HPP
+END
+GLC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GLC.HPP
+END
+IMA.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/IMA.hpp
+END
+GLF.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GLF.HPP
+END
+MWV.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/MWV.HPP
+END
+DBT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/DBT.HPP
+END
+ALM.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ALM.HPP
+END
+GDP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GDP.HPP
+END
+STDPOS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/STDPOS.hpp
+END
+WDC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/WDC.HPP
+END
+GLL.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GLL.HPP
+END
+GTD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GTD.HPP
+END
+GXA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GXA.HPP
+END
+MTA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/MTA.HPP
+END
+GLP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GLP.HPP
+END
+GXF.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GXF.HPP
+END
+OLN.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/OLN.HPP
+END
+ZFI.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZFI.HPP
+END
+TRF.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/TRF.HPP
+END
+OMEGAPAR.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/OMEGAPAR.HPP
+END
+HSPOS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/HSPOS.hpp
+END
+WDR.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/WDR.HPP
+END
+NMEA0183.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pacpusbase/!svn/ver/338/trunk/PACPUS/include/NMEA0183/NMEA0183.HPP
+END
+RESPONSE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/RESPONSE.HPP
+END
+GXP.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/GXP.HPP
+END
+AAM.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/AAM.HPP
+END
+VBW.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VBW.HPP
+END
+ZFO.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZFO.HPP
+END
+LATLONG.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/LATLONG.HPP
+END
+WAYPTLOC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/WAYPTLOC.HPP
+END
+FREQMODE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/FREQMODE.HPP
+END
+LCD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/LCD.HPP
+END
+WPL.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/WPL.HPP
+END
+DCN.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/DCN.HPP
+END
+BOD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/BOD.HPP
+END
+STN.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/STN.HPP
+END
+POSITI.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/POSITI.hpp
+END
+MTW.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/MTW.HPP
+END
+HDM.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/HDM.hpp
+END
+BWC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/BWC.HPP
+END
+HSC.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/HSC.HPP
+END
+ATTITUD.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/NMEA0183/ATTITUD.hpp
+END
+FSI.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/FSI.HPP
+END
+RSA.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RSA.HPP
+END
+RSD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/RSD.HPP
+END
+ZZU.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ZZU.HPP
+END
+BWR.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/BWR.HPP
+END
+HSATIT.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/NMEA0183/HSATIT.hpp
+END
+BWW.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/BWW.HPP
+END
+VWE.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/VWE.HPP
+END
+HDG.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/HDG.HPP
+END
+LORANTD.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/LORANTD.HPP
+END
+ROT.HPP
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/8/trunk/PACPUS/include/NMEA0183/ROT.HPP
+END

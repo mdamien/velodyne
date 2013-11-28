@@ -1,0 +1,4 @@
+TODO:
+
+DONE:
+* (2013-01-09, kurdejma) installing .pdb (Debug info) files on Windows MSVC

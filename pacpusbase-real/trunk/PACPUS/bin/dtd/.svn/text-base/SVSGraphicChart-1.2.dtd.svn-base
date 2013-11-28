@@ -1,0 +1,80 @@
+<!-- Point coordinates -->
+<!ENTITY % pt "x CDATA #REQUIRED
+			   y CDATA #REQUIRED"
+>
+
+<!-- Color definition -->
+<!ENTITY % clr "color CDATA #IMPLIED"
+>
+
+<!-- StyleChart Root element -->
+<!ELEMENT GRAPHIC_CHART (ZOOM,BACKGROUND?,DEFAULT_FONT?,CLASSES)>
+<!ATTLIST GRAPHIC_CHART name CDATA #IMPLIED
+>
+
+<!-- Background color/texture option -->
+<!ELEMENT BACKGROUND (BRUSH)>
+
+<!-- Default font definition -->
+<!ELEMENT DEFAULT_FONT (FONT)>
+
+<!-- Zoom parameter settings -->
+<!ELEMENT ZOOM (STEP*)>
+<!ATTLIST ZOOM mode (continuous|stepped) "continuous"
+>
+
+<!-- Zoom level declarations -->
+<!ELEMENT STEP (IMAGE*)>
+<!ATTLIST STEP level ID    #REQUIRED
+               scale CDATA #REQUIRED
+>
+
+<!-- Raster images positionning -->
+<!ELEMENT IMAGE EMPTY>
+<!ATTLIST IMAGE src CDATA  #REQUIRED
+				    %pt;
+		            position (topleft|center) "topleft"
+>
+
+<!-- Font definition -->
+<!ELEMENT FONT EMPTY>
+<!ATTLIST FONT name   CDATA #IMPLIED
+			         height CDATA #REQUIRED
+			         weight (ultra_light|light|normal|demi_bold|bold|black) "normal"
+			         italic (yes|no) "no"
+			         underline (yes|no) "no"			   
+			         %clr;>
+
+<!ELEMENT CLASSES (CLASS*)>
+<!ELEMENT CLASS   (FORM+)>
+<!ATTLIST CLASS   id   ID    #REQUIRED
+                  name CDATA #IMPLIED
+                  visibility (yes|no)    #IMPLIED
+                  scale_visibility CDATA #IMPLIED>
+
+<!ELEMENT FORM (TEXT?,PEN?,BRUSH?)>
+<!ATTLIST FORM  type (open|closed|rect|ellipse|point|complex) "point"
+                visibility (yes|no)  #IMPLIED
+                scale_validity CDATA #IMPLIED
+                att_condition  CDATA #IMPLIED>
+
+<!ELEMENT TEXT (FONT)>
+
+<!ELEMENT PEN  EMPTY>
+<!ATTLIST PEN  style  CDATA #FIXED "solid"
+               width  CDATA #IMPLIED
+               unit   (pixel|real) "pixel"
+               %clr;
+               border CDATA #IMPLIED
+               center CDATA #IMPLIED
+               arrow_width CDATA #IMPLIED
+               arrow_unit (pixel|real) #IMPLIED
+               arrow_dir  (from|to)    #IMPLIED
+               arrow_color CDATA       #IMPLIED>
+
+<!ELEMENT BRUSH  EMPTY>
+<!ATTLIST BRUSH  style (solid|pattern|image) "solid"
+                 %clr;
+				 src       CDATA #IMPLIED
+                 chromakey CDATA #IMPLIED
+			     transparent (yes|no) "no">

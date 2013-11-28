@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+  <gps type="GpsComponent" recording="false" port="COM1" baudrate="115200" bytesize="8" parity="0" stopbits="1"/>
+  <sony type="Camera1394" node="0" format="0" mode="3" framerate="2" recording="false" recordFormat="ppm" reverseImage="false" display="false" zoom="64"/>
+  <alasca type="AlascaComponent" alascaIP="172.17.130.205" alascaPort="12000" recording="1"/>
+  <can type="CanGateway" recording="false" source="vector" channel="1" speed="500"/>
+  <cvisServer type="SensorTcpServer" port="10000"/>
+ </components>
+ <parameters/>
+</pacpus>

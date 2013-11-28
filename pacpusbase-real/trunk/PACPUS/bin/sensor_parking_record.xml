@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+  <can type="CanGateway" recording="true" source="vector" channel="1" speed="500"/>
+  <scene type="Camera1394" node="0" format="0" mode="1" framerate="2" recording="true" recordFormat="ppm" reverseImage="false" display="true" zoom="64"/>
+  <conducteur type="Camera1394" node="1" format="0" mode="2" framerate="2" recording="true" recordFormat="ppm" reverseImage="false" display="true" zoom="64"/>
+  <rear type="Camera1394" node="2" format="0" mode="1" framerate="2" recording="true" recordFormat="ppm" reverseImage="false" display="true" zoom="64"/>
+ </components>
+ <parameters/>
+</pacpus>

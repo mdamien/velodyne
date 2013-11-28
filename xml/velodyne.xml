@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pacpus>
+<components>
+	<compute type="ComputingComponent" />
+	<velodyneInterface type="VelodyneInterface" />
+	<velodyne type="VelodyneComponent" />
+</components>
+<parameters>
+<plugins list="/opt/pacpus/0.0.1/lib/libVelodynePCLViewer.so|/opt/pacpus/0.0.1/lib/libVelodyneComponent.so"/>
+</parameters>
+</pacpus>

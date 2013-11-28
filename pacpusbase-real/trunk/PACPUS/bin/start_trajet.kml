@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Folder>
+    <name>Network Link</name>
+    <visibility>1</visibility>
+    <open>1</open>
+    <NetworkLink>
+	  <name>Trajet</name>
+	  <visibility>1</visibility>
+	  <open>1</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+        <href>trajet.kml</href>
+		<refreshMode>onInterval</refreshMode>
+		<refreshInterval>2</refreshInterval>
+		<viewRefreshMode>never</viewRefreshMode>
+		<viewBoundScale>2</viewBoundScale>
+      </Link>
+    </NetworkLink>
+  </Folder>
+</kml>

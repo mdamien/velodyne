@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<stereoCameraInterface 
+			type="StereoCameraInterface" 
+			width="320" 
+			height="240"
+			display_output="true" 
+			calibrationfile="Videre.conf" 
+			configfile="odometry.ini"
+			output_file="true"
+			logFilePath="C:\1_Sergio\ASER_CODE\Data\1_Output\"
+			canComponent="true"
+			gpsComponent="false"/>		
+	<canInterface 
+			type="CanInterface" 
+			output_file="true"
+			logFilePath="C:\1_Sergio\ASER_CODE\Data\1_Output\" />						
+	<gpsInterface 
+			type="GpsInterface" 
+			output_file="true"
+			logFilePath="C:\1_Sergio\ASER_CODE\Data\1_Output\" />				
+	<sensorInterface 
+			type="SensorInterface" 
+			width="320" height="240" format="gray"
+			calibrationFile="CalibFile_12_17_09_0003.txt"
+			output_file="true"
+			logFilePath="C:\1_Sergio\ASER_CODE\Data\1_Output\"/>	
+	<visionInterface 
+			type="VisionInterface" 
+			width="320" 
+			height="240"
+			calibrationfile="Videre.conf" 
+			configfile="vision.ini"
+			output_file="true"
+			logFilePath="C:\1_Sergio\ASER_CODE\Data\1_Output\"/>			
+</components> 	
+<lidarInterface
+			type="LidarInterface"
+			output_file="false"
+			output_dbt2txt="false"
+			logFilePath="C:\1_Sergio\ASER_CODE\Data\1_Output\"/>
+<geInterface 
+			type="GEInterface" 
+			nbPoints="1000"
+			initHeadingPoints="70"/>		
+<parameters/>
+</pacpus>
+
+<!--Documentation-->
+<!--
+<StereoCameraInterface />
+Note:: This component works under gray scale[G] and color[RGBX] input images
+width:: Width of input images [320, 640]
+height:: Height of input images [240, 480] 
+display_output:: Enables stereo image output
+calibrationfile:: File which contains the calibration parameters (intrinsic parameters of the rectified images 
+		     at the resolution defined before and extrinsic) of the stereo vision system 
+configfile:: File which contains the parameters of the visual odometry system
+output_file::Log file registry of results
+logFilePath::destination directory of output_file
+canComponent::propioceptive module activation
+<CanInterface />
+				
+-->

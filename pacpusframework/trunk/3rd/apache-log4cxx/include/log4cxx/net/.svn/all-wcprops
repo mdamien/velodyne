@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net
+END
+syslogappender.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/syslogappender.h
+END
+smtpappender.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/smtpappender.h
+END
+sockethubappender.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/sockethubappender.h
+END
+socketappender.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/socketappender.h
+END
+xmlsocketappender.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/xmlsocketappender.h
+END
+telnetappender.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/telnetappender.h
+END
+socketappenderskeleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/pacpusframework/!svn/ver/2/trunk/3rd/apache-log4cxx/include/log4cxx/net/socketappenderskeleton.h
+END

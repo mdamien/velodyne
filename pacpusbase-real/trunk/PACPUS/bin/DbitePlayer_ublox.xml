@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<dbiteUserInterface type="DbtPlyUserInterface"/>  	
+	<dbiteTrigger type="DbtPlyTrigger"/>
+	<dbiteEngine type="DbtPlyEngine" datadir= "E:\Developpements\SVN_heudyasic\PACPUS\bin"/>
+  	<ublox type="DbtPlyUbloxManager" dbt="ublox_RXM_RAW.dbt|ublox_RXM_SFRB.dbt|ublox_NAV_POSLLH.dbt|ublox_NAV_VELNED.dbt|ublox_NAV_CLOCK.dbt|ublox_NAV_POSUTM.dbt|ublox_NAV_SOL.dbt" ui="1"/>	
+ </components>
+ <parameters/>
+</pacpus>

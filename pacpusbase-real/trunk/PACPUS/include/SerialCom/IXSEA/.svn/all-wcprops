@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/SerialCom/IXSEA
+END
+SerialCOM_Msg_STDHRP.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_STDHRP.hpp
+END
+SerialCom_Protocol_IXSEA.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/614/trunk/PACPUS/include/SerialCom/IXSEA/SerialCom_Protocol_IXSEA.hpp
+END
+SerialCOM_Msg_UTMWGS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_UTMWGS.hpp
+END
+SerialCOM_Msg_POSITI.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_POSITI.hpp
+END
+SerialCOM_Msg_HEAVE.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_HEAVE.hpp
+END
+SerialCOM_Msg_HEHDT.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_HEHDT.hpp
+END
+SerialCOM_Msg_HSATIT.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_HSATIT.hpp
+END
+SerialCOM_Msg_HSPOS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_HSPOS.hpp
+END
+SerialCOM_Msg_STDPOS.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_STDPOS.hpp
+END
+SerialCOM_Msg_TIME__.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_TIME__.hpp
+END
+SerialCOM_Msg_ATTITUD.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_ATTITUD.hpp
+END
+SerialCOM_Msg_SPEED.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_SPEED.hpp
+END
+SerialCOM_Msg_STDSPD.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/705/trunk/PACPUS/include/SerialCom/IXSEA/SerialCOM_Msg_STDSPD.hpp
+END

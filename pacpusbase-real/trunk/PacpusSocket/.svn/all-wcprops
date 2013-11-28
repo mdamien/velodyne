@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pacpusbase/!svn/ver/1318/trunk/PacpusSocket
+END
+PacpusSocket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pacpusbase/!svn/ver/1317/trunk/PacpusSocket/PacpusSocket.cpp
+END
+PacpusSocket.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pacpusbase/!svn/ver/1317/trunk/PacpusSocket/PacpusSocket.h
+END
+TestPacpusSocket.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/pacpusbase/!svn/ver/1200/trunk/PacpusSocket/TestPacpusSocket.hpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pacpusbase/!svn/ver/1318/trunk/PacpusSocket/CMakeLists.txt
+END

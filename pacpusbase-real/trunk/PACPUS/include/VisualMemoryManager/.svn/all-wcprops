@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/VisualMemoryManager
+END
+RequestEmetor.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/pacpusbase/!svn/ver/216/trunk/PACPUS/include/VisualMemoryManager/RequestEmetor.h
+END
+Recorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/pacpusbase/!svn/ver/216/trunk/PACPUS/include/VisualMemoryManager/Recorder.h
+END
+VisualManagerFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/216/trunk/PACPUS/include/VisualMemoryManager/VisualManagerFrame.h
+END
+FileManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/pacpusbase/!svn/ver/216/trunk/PACPUS/include/VisualMemoryManager/FileManager.h
+END

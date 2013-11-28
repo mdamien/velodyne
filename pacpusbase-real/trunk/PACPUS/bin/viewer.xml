@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<alascaViewer3d type="AlascaViewer3D" xMin="-6" xMax="6" yMin="-6" yMax="6"/>
+	<detection type="AlascaLOVeComputing" displayImage="true" projection="true" calibrationfile="CalibFile.txt"/> 
+	<alascaInterface type="AlascaInterface" processModule="detection"/>
+	<camInterface type="CameraInterface" width="640" height="480" format="color" processModule="detection"/>
+ </components>
+ 	<proprio type="CANInterface" processModule="detection"/>
+ <parameters/>
+ </pacpus>

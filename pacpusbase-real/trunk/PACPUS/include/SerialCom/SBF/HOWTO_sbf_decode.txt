@@ -1,0 +1,46 @@
+**********************************************************
+**	HowTo: Handle a new SBf frame in DBT Recorder	**
+**	Auteur: Clement Fouque				**
+**	Date: Octobre 2008				**
+**********************************************************
+
+-- Step 1 --
+
+Define which frame will be decoded. In PolarX documentation, find following parameters:
+  - Name
+  - Id
+
+Check if data structure is defined for the given message. If not, data structure must be defined according to the SBF documation ( See PolarX Documentation appendix )
+
+-- Step 2 --
+
+Define a new dbt name in PACPUS/include/kernel/io_hdfile.h
+#define DBT_SBF_<NAME> 11xxx
+
+-- Step 3 --
+Copy and rename folowing files: 
+
+SerialCOM/src/SBF/SerialCOM_Msg_Template.cpp -> SerialCOM/src/SBF/SerialCOM_Msg_<Name>.cpp
+PACPUS/include/SerialCOM/SBF/SerialCOM_Msg_Template.hpp -> PACPUS/include/SerialCOM/SBF/SerialCOM_Msg_<Name>.hpp
+
+-- Step 4 --
+
+Change class name according to the name of the frame in header file.
+Edit Doxygen comment in header in order to correctly doccument the function.
+No more change are needed in header file.
+
+Edit Source file according to header.
+
+Search for :
+* <FRAME>               : to edit class name according to frame name
+* <SBFDATASTRUCTURE>    : to provide the name of the corresponding data structure.
+* <FRAME_ID>            : to provide SBF frame ID
+* <FRAME_NAME>"         : to provide SBF frame name
+* <DBT_FRAME_NAME>      : to provide DBT name given in "iohdfile.h"
+
+-- Step 5 --
+
+Add New file in SerialCOM/CMakeLists.txt -> "SerialComLib_SOURCES_SBF" variable
+Don't forget to include the new frame in "SeptentrioComponent.h".
+To use the frame add: pProtocolSBF->addMsg( new Plrx::SerialCOM_Msg_<FRAME>() ); in SeptentrioComponent constructor.
+

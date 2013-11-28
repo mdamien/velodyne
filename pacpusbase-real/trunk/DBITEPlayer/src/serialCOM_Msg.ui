@@ -1,0 +1,49 @@
+<ui version="4.0" >
+ <class>SerialComMsgViewerClass</class>
+ <widget class="QWidget" name="SerialComMsgViewerClass" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>689</width>
+    <height>549</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="mainStackedWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>150</x>
+     <y>10</y>
+     <width>531</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="currentIndex" >
+    <number>-1</number>
+   </property>
+  </widget>
+  <widget class="QTreeWidget" name="messageTreeWidget" >
+   <property name="geometry" >
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>131</width>
+     <height>531</height>
+    </rect>
+   </property>
+   <property name="accessibleName" >
+    <string/>
+   </property>
+   <column>
+    <property name="text" >
+     <string>Messages</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

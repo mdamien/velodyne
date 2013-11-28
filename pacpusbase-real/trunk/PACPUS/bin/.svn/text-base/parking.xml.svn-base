@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<proprio type="CANInterface" processModule="detection"/>
+ </components>
+ <parameters/>
+ </pacpus>

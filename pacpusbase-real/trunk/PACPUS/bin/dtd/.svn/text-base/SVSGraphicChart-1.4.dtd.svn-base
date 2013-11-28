@@ -1,0 +1,118 @@
+<!-- Point coordinates -->
+<!ENTITY % pt "x CDATA #REQUIRED
+			   y CDATA #REQUIRED"
+>
+
+<!-- Color definition -->
+<!ENTITY % clr "color CDATA #IMPLIED"
+>
+
+<!-- StyleChart Root element -->
+<!ELEMENT GRAPHIC_CHART (ZOOM,BACKGROUND?,DEFAULT_FONT?,CLASSES)>
+<!ATTLIST GRAPHIC_CHART name CDATA #IMPLIED
+>
+
+<!-- Background color/texture option -->
+<!ELEMENT BACKGROUND (BRUSH)>
+
+<!-- Default font definition -->
+<!ELEMENT DEFAULT_FONT (FONT)>
+
+<!-- Zoom parameter settings -->
+<!ELEMENT ZOOM (STEP*)>
+<!ATTLIST ZOOM mode (continuous|stepped) "continuous"
+>
+
+<!-- Zoom level declarations -->
+<!ELEMENT STEP (IMAGE*)>
+<!ATTLIST STEP level ID    #REQUIRED
+               scale CDATA #REQUIRED
+>
+
+<!-- Raster images positionning -->
+<!ELEMENT IMAGE EMPTY>
+<!ATTLIST IMAGE src CDATA  #REQUIRED
+				    %pt;
+		            position (topleft|center) "topleft"
+>
+
+<!-- Font definition 
+  name   : Name of font
+  height : Font height in pixels/real units depending on the value of the "unit"  
+           attribute (default is pixels).
+  weight : Weight of font
+  italic : Specifies an italic font
+  underline : Specifies an underlined font
+  color  : color of font
+  unit   : For later use.
+-->
+<!ELEMENT FONT EMPTY>
+<!ATTLIST FONT name   CDATA #IMPLIED
+               height CDATA #REQUIRED
+               weight (ultra_light|light|normal|demi_bold|bold|black) "normal"
+			   italic    (yes|no) "no"
+			   underline (yes|no) "no"			   
+			   %clr;		
+			   unit (pixel|real) "pixel">
+
+<!ELEMENT CLASSES (CLASS*)>
+<!ELEMENT CLASS   (FORM+)>
+<!ATTLIST CLASS   id   ID    #REQUIRED
+                  name CDATA #IMPLIED
+                  visibility (yes|no)    #IMPLIED
+                  scale_visibility CDATA #IMPLIED>
+
+<!ELEMENT FORM (TEXT?,PEN?,BRUSH?)>
+<!ATTLIST FORM  type (open|closed|rect|ellipse|point|complex) "point"                
+                visibility (yes|no)  #IMPLIED
+				name           CDATA #IMPLIED
+                scale_validity CDATA #IMPLIED
+                att_condition  CDATA #IMPLIED>
+
+<!ELEMENT TEXT (FONT)>
+<!-- Text display options 
+   outline_color : must be undefined or HFFFFFF.
+   fill_color	 : fill (or background) color of text. 
+   transparent   : specifies whether the background color must be transparent.
+   border        : border color of text. 
+   align         : horizontal alignment of text.
+   valign        : vertical alignment of text.
+   max_priority  : sets a maximum priority for text drawing.
+   att_code      : attribute (code) to display.
+   alt_att_code  : alternative attribute (code) to display.   
+   angle		 : [For later use] : "auto" to allow the SDK to compute the angle automatically (valid for open forms only !)                   
+				   or the code of a signed or unsigned attribute which defines an angle value in degrees clockwise. 
+				   A null value or a missing attribute means "horizontal text" (default),
+-->
+<!ATTLIST TEXT outline_color CDATA #IMPLIED
+			   fill_color    CDATA #IMPLIED
+			   transparent (yes|no) "no"
+			   border CDATA #IMPLIED			   
+			   align  (center|left|right) "center"
+			   valign (top|middle|bottom) "top"
+			   max_priority (yes|no)      "no"
+			   att_code      CDATA #IMPLIED  
+			   alt_att_code	 CDATA #IMPLIED
+			   angle	     CDATA #IMPLIED>
+
+<!ELEMENT PEN  EMPTY>
+<!ATTLIST PEN  style (solid|dash|dot|dashdot) "solid"
+               width  CDATA #IMPLIED
+               unit   (pixel|real) "pixel"
+               %clr;
+			   transparent (yes|no) #IMPLIED
+               border      CDATA    #IMPLIED
+               center      CDATA    #IMPLIED
+               arrow_width CDATA    #IMPLIED
+               arrow_unit  (pixel|real) #IMPLIED
+               arrow_dir   (from|to)    #IMPLIED
+               arrow_color  CDATA       #IMPLIED
+			   arrow_filled (yes|no)    #IMPLIED>
+
+<!ELEMENT BRUSH  EMPTY>
+<!ATTLIST BRUSH  style (solid|pattern|image) "solid"
+                 %clr;
+				 src       CDATA #IMPLIED
+                 chromakey CDATA #IMPLIED
+			     transparent    (yes|no) "no"
+				 auto_resizable (yes|no) "yes">

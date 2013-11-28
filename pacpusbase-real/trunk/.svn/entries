@@ -1,0 +1,227 @@
+10
+
+dir
+1321
+https://devel.hds.utc.fr/svn/pacpusbase/trunk
+https://devel.hds.utc.fr/svn/pacpusbase
+
+
+
+2013-10-09T14:08:05.071210Z
+1321
+bonnetst
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+81eceb47-55a1-493d-9d98-39bc04a94090
+
+RAMIAC
+dir
+
+PacpusDataCollector
+dir
+
+Odometry
+dir
+
+PacpusDispatcher
+dir
+
+DbtPlyAlasca
+dir
+
+PacpusSocket
+dir
+
+CVIS
+dir
+
+Mobileye
+dir
+
+DbtPlyPluginVision
+dir
+
+CanPSA
+dir
+
+Video
+dir
+
+DbtPlyCanCarmen
+dir
+
+VelodyneViewer
+dir
+
+Sensor
+dir
+
+DbtPlySerialS8Logger
+dir
+
+Proprioceptive
+dir
+
+Plot3DVtkViewer
+dir
+
+DbtPlyVG700
+dir
+
+AirplugGateway
+dir
+
+obd2
+dir
+
+tutorials
+dir
+
+CVWebcam
+dir
+
+DbtHeaderFix
+dir
+
+ProjectorComponent
+dir
+
+correctDbt
+dir
+
+PACPUS
+dir
+
+dbt2txt
+dir
+
+driver
+dir
+
+rawcan-asc2dbt
+dir
+
+DbtPlyFaceLAB
+dir
+
+BumblebeeXB3
+dir
+
+Stereo
+dir
+
+CanFluenceZE
+dir
+
+DBITEPlayer
+dir
+
+DbtPlyVelodyne
+dir
+
+SickLMS
+dir
+
+DbtPlyRadar
+dir
+
+DbtPlyGps
+dir
+
+VelodyneComponent
+dir
+
+CPTComponent
+dir
+
+Calibrage
+dir
+
+DbtPlyDyna
+dir
+
+SickLdoem
+dir
+
+PacpusViewer
+dir
+
+FaceLAB
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2013-10-22T12:44:56.236669Z
+ca217196e1dcafc77476e4479fc3a67e
+2013-07-02T14:52:26.725559Z
+1310
+kurdejma
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7184
+
+RadarLib
+dir
+
+googleEarthInterface
+dir
+
+CanGateway
+dir
+
+nf33_p13_TSR
+dir
+
+Alasca
+dir
+
+DbtPlyMobilEye
+dir
+
+PoseViewer
+dir
+
+DbtPlyCPTComponent
+dir
+
+Gps
+dir
+
+SerialS8Logger
+dir
+

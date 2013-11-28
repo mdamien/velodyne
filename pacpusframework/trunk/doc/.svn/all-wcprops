@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pacpusframework/!svn/ver/115/trunk/doc
+END
+doxyfile.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pacpusframework/!svn/ver/115/trunk/doc/doxyfile.in
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pacpusframework/!svn/ver/64/trunk/doc/CMakeLists.txt
+END
+PacpusFramework.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/pacpusframework/!svn/ver/115/trunk/doc/PacpusFramework.h
+END

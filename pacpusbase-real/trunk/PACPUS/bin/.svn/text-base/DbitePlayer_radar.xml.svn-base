@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<dbiteUserInterface type="DbtPlyUserInterface"/>  	
+	<dbiteTrigger type="DbtPlyTrigger"/>	
+	<dbiteEngine type="DbtPlyEngine" datadir="C:\dev\data\2008_12_09_11_06_09_scenar1"/>
+	<IMAGE type="DbtPlyImageManager" dbt="sonyCarmen.dbt" ui="1"/>
+	<can type="DbtPlyCanManager" dbt="wheelspeed.dbt|lat_dyn.dbt" ui="0"/>
+	<ALASCA type="DbtPlyAlascaManager" dbt="alasca.dbt" ui="0" binFile="alasca_data.utc"/>	
+	<radar type="DbtPlyRadarManager" dbt="radar.dbt" ui="0"/>
+	<GGACarmen type="DbtPlyGgaManager" dbt="ubloxCarmen_gga.dbt" ui="1"/>
+	<VTGCarmen type="DbtPlyVtgManager" dbt="ubloxCarmen_vtg.dbt" ui="1"/>
+	<GGAStrada type="DbtPlyGgaManager" dbt="ubloxStradaRestamp_gga.dbt" ui="1"/>
+	<VTGStrada type="DbtPlyVtgManager" dbt="ubloxStradaRestamp_vtg.dbt" ui="1"/>
+	</components>
+ <parameters/>
+</pacpus>
+

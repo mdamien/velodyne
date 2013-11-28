@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+  <sensorsClass type="PositioningSensors"/>
+  <mapMatching type="MapMatching"/>
+  <computeClass type="PositioningComputing"/>
+  <bigProvider type="PositionProvider"/>
+  <mapClient type="MapClientSocket"/>
+ </components>
+ <parameters/>
+</pacpus>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+ <components>
+	<dbiteUserInterface type="DbtPlyUserInterface"/>  	
+	<dbiteTrigger type="DbtPlyTrigger"/>	
+	<dbiteEngine type="DbtPlyEngine" datadir="C:\ASER\Data\1_Input\2009_04_24_16_17_07\"/>
+	<StereoManager 
+	 type="DbtPlyStereoManager" 
+	 dbt="VidereComponent_LeftCam.dbt|VidereComponent_RightCam.dbt" 
+	 ui="1" 
+	 width="320" 
+	 height="240" 
+	 depth="1"/>
+	<can type="DbtPlyCanManager" dbt="wheelspeed.dbt|lat_dyn.dbt|odometry.dbt|steering_wheel.dbt" ui="0"/>
+	<gps type="DbtPlyGgaManager" dbt="gps_gga.dbt" ui="0"/>
+	<gpsPseudoRange type="DbtPlyGstManager" dbt="gps_gst.dbt" ui="0"/>
+ </components>	  
+ <lidar type="DbtPlyAlascaManager" dbt="alasca.dbt" ui="0" binFile="alasca_data.utc"/>	
+ <GOOGLEEARTH type="DbtPlyGoogleEarth" nbPoints="1000"/> 
+ <IMAGE1 type="DbtPlyImageManager" dbt="VidereComponent_LeftCam.dbt" ui="1"/>
+ <parameters/>
+</pacpus>
+

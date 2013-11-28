@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/SerialCom/NMEA
+END
+SerialCOM_Protocol_NMEA.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/pacpusbase/!svn/ver/614/trunk/PACPUS/include/SerialCom/NMEA/SerialCOM_Protocol_NMEA.hpp
+END
+SerialCOM_Msg_GST.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/SerialCom/NMEA/SerialCOM_Msg_GST.hpp
+END
+SerialCOM_Msg_GGA.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/SerialCom/NMEA/SerialCOM_Msg_GGA.hpp
+END
+SerialCOM_Msg_ZDA.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/pacpusbase/!svn/ver/630/trunk/PACPUS/include/SerialCom/NMEA/SerialCOM_Msg_ZDA.hpp
+END

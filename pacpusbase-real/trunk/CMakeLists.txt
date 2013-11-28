@@ -1,0 +1,188 @@
+project(PACPUSBASE)
+
+cmake_minimum_required(VERSION 2.6)
+cmake_policy(VERSION 2.8)
+cmake_policy(SET CMP0003 NEW)
+cmake_policy(SET CMP0015 NEW)
+
+################################################################################
+# PACPUS
+# Check if an environment variable exists, we use it, else we use a default value 
+
+if(EXISTS $ENV{PACPUSBIN})
+    message(STATUS "Found environment variable PACPUSBIN: $ENV{PACPUSBIN}")
+    set(PACPUSBIN_ROOT $ENV{PACPUSBIN})
+else()
+    message(STATUS "Environment variable PACPUSBIN NOT FOUND, DEFAULT PATH USED")
+    set(PACPUSBIN_ROOT "${CMAKE_SOURCE_DIR}/../pacpusbin/trunk" CACHE STRING "Root directory of pacpusbin project")
+endif()
+
+if(EXISTS $ENV{PACPUSDEV})
+    message(STATUS "Found environment variable PACPUSDEV: $ENV{PACPUSDEV}")
+    set(PACPUSDEV_ROOT $ENV{PACPUSDEV})
+else()
+    message(STATUS "Environment variable PACPUSDEV NOT FOUND, DEFAULT PATH USED")
+    set(PACPUSDEV_ROOT "${CMAKE_SOURCE_DIR}/../pacpusdev/trunk" CACHE STRING "Root directory of pacpusdev project")
+endif()
+
+set(PACPUSDEV_CMAKE_DIR     "${PACPUSDEV_ROOT}/cmake_modules")
+include(${PACPUSDEV_CMAKE_DIR}/GlobalCmakePacpus.txt)
+
+################################################################################
+# COMPILER
+if("${CMAKE_C_COMPILER}" MATCHES "gcc|icc|clang")
+    message(STATUS "Libraries compiled with -fPIC option")
+    #add_definitions( -fPIC )
+endif()
+
+################################################################################
+# Boost
+find_package(
+    Boost
+	1.44.0             # minimum version
+    REQUIRED
+    COMPONENTS program_options # required components
+)
+if(Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIRS})
+    link_directories(${Boost_LIBRARY_DIRS})
+    #list(APPEND LIBS ${Boost_LIBRARIES})
+endif(Boost_FOUND)
+
+################################################################################
+# OpenCV
+find_package(OpenCV ) # ??REQUIRED??
+if(OpenCV_FOUND)
+    list(APPEND OpenCV_LIBS ${OpenCV_LIBRARIES})
+    list(APPEND OpenCV_INCLUDE_DIR ${OpenCV_INCLUDE_DIRS})
+
+    include_directories(${OpenCV_INCLUDE_DIRS})
+    #list(APPEND LIBS ${OpenCV_LIBS})
+endif(OpenCV_FOUND)
+
+message(STATUS "OpenCV_INCLUDE_DIR = ${OpenCV_INCLUDE_DIR}")
+message(STATUS "OpenCV_LIBS = ${OpenCV_LIBS}")
+
+################################################################################
+# Qt4
+find_package(Qt4 REQUIRED)
+if(QT4_FOUND)
+    set(QT_USE_QTNETWORK true)
+    set(QT_USE_QTOPENGL true)
+    set(QT_USE_QTXML true)
+    include(${QT_USE_FILE})
+    include_directories(${QT_INCLUDE_DIR})
+    link_directories(${QT_LIBRARIES})
+    add_definitions( ${QT_DEFINITIONS} )
+    add_definitions( -DQT_PLUGIN )
+endif(QT4_FOUND)
+
+################################################################################
+# PointGrey Research Bumblebee: Digiclops, Triclops, PGR FlyCapture
+find_package(Digiclops)
+if(Digiclops_FOUND)
+    message("Digiclops_INCLUDE_DIRS = ${Digiclops_INCLUDE_DIRS}")
+    include_directories(${Digiclops_INCLUDE_DIRS})
+    message("Digiclops_LIBRARIES = ${Digiclops_LIBRARIES}")
+    #list(APPEND LIBS ${Digiclops_LIBRARIES})
+endif()
+
+find_package(PGRFlyCapture)
+if(PGRFlyCapture_FOUND)
+    message("PGRFlyCapture_INCLUDE_DIRS = ${PGRFlyCapture_INCLUDE_DIRS}")
+    include_directories(${PGRFlyCapture_INCLUDE_DIRS})
+    message("PGRFlyCapture_LIBRARIES = ${PGRFlyCapture_LIBRARIES}")
+    #list(APPEND LIBS ${PGRFlyCapture_LIBRARIES})
+endif()
+
+find_package(Triclops)
+if(Triclops_FOUND)
+    message("Triclops_INCLUDE_DIRS = ${Triclops_INCLUDE_DIRS}")
+    include_directories(${Triclops_INCLUDE_DIRS})
+    message("Triclops_LIBRARIES = ${Triclops_LIBRARIES}")
+    #list(APPEND LIBS ${Triclops_LIBRARIES})
+endif()
+
+################################################################################
+
+#add_subdirectory(AirplugGateway)
+#add_subdirectory(Alasca)
+#add_subdirectory(Calibrage)
+#add_subdirectory(CanGateway)
+#add_subdirectory(CanFluenceZE)          # requires: CanGateway
+#add_subdirectory(Mobileye)				# requires: CanGateway
+
+#add_subdirectory(correctDbt)            # requires: FileLib.lib
+#add_subdirectory(CVIS)
+#add_subdirectory(DBITEPlayer)
+add_subdirectory(dbt2txt)               # requires -lNMEA0183LIB (pacpusextlib)
+#add_subdirectory(DbtPlyAlasca)
+#add_subdirectory(DbtPlyCanCarmen)
+#add_subdirectory(DbtPlyDyna)
+#
+#add_subdirectory(DbtPlyGps)
+#
+add_subdirectory(DbtPlyPluginVision)
+#add_subdirectory(DbtPlyRadar)
+#add_subdirectory(DbtPlyVelodyne)
+#add_subdirectory(DbtPlyVG700)
+#add_subdirectory(driver)
+#
+#add_subdirectory(googleEarthInterface)
+#add_subdirectory(Gps)                   # requires -lNMEA0183LIB (pacpusextlib), FIXME (UNIX) -lSerialComLib
+#add_subdirectory(obd2)
+#add_subdirectory(Odometry)
+#add_subdirectory(PacpusDataCollector)
+#add_subdirectory(PacpusDispatcher)
+#dd_subdirectory(PacpusSocket)
+#
+#add_subdirectory(Plot3DVtkViewer)
+#add_subdirectory(ProjectorComponent)
+#add_subdirectory(Proprioceptive)
+#add_subdirectory(RadarLib)             # FIXME: missing file: Sensor/src/Driver/VectorCanDriver.cpp (not added to SVN)
+#
+#add_subdirectory(Sensor)                # FIXME: missing file: ALL (not added to SVN)
+#add_subdirectory(SickLdoem)
+#if(Triclops_FOUND AND Digiclops_FOUND)
+#    add_subdirectory(Stereo)                # FIXME: cannot find libraries -lsvs -ldcscap -lsvscalc -ldcamcap
+                                        # FIXME (WIN): no such file or directory: triclops.h, digiclops.h (Bumblebee.h:38-39)
+#endif()
+#if(Triclops_FOUND AND PGRFlyCapture_FOUND)
+#    add_subdirectory(BumblebeeXB3)      # requires -lPGRFlyCapture, -ltriclops (see https://devel.hds.utc.fr/projects/pacpus/wiki/PacpusHardware/CameraBumblebee)
+#endif()
+    
+#add_subdirectory(tutorials)
+add_subdirectory(VelodyneComponent)
+add_subdirectory(VelodyneViewer)        # requires -lqwtplot3d (pacpusextlib)
+add_subdirectory(DbtPlyVelodyne)
+
+#add_subdirectory(Video)                 # FIXME (UNIX): no such file or directory: dc1394/conversions.h, #dc1394/#control.h, dc1394/utils.h
+
+#add_subdirectory(SerialS8Logger)
+#add_subdirectory(DbtPlySerialS8Logger)  # requires -lNMEA0183LIB (pacpusextlib)
+
+add_subdirectory(CPTComponent)          # requires -lNMEA0183LIB (pacpusextlib)
+add_subdirectory(DbtPlyCPTComponent)    # requires -lNMEA0183LIB (pacpusextlib)
+
+#add_subdirectory(Odometry)
+
+#add_subdirectory(Video)                 # FIXME: no such file or directory: dc1394/conversions.h, dc1394/control.h, dc1394/utils.h
+#add_subdirectory(Stereo)                # FIXME: cannot find libraries -lsvs -ldcscap -lsvscalc -ldcamcap
+#add_subdirectory(ProjectorComponent)
+#add_subdirectory(correctDbt)            # requires: FileLib.lib
+#add_subdirectory(PacpusSocket)
+
+#add_subdirectory(DbtHeaderFix)
+
+if(WIN32)
+#    add_subdirectory(DbtPlyFaceLAB)
+#    add_subdirectory(DbtPlyMobilEye)
+#    add_subdirectory(FaceLAB)
+#    add_subdirectory(RAMIAC)            # requires OpenGL, GLU, GLUT
+#    add_subdirectory(SickLMS)
+else()
+#    add_subdirectory(PacpusViewer)
+endif()
+
+#add_subdirectory(rawcan-asc2dbt)
+#add_subdirectory(CVWebcam)

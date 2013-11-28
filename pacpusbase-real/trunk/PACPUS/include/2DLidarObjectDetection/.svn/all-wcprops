@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/pacpusbase/!svn/ver/1065/trunk/PACPUS/include/2DLidarObjectDetection
+END
+inifile.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/pacpusbase/!svn/ver/801/trunk/PACPUS/include/2DLidarObjectDetection/inifile.h
+END
+AlascaDisplayModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/791/trunk/PACPUS/include/2DLidarObjectDetection/AlascaDisplayModule.h
+END
+AlascaLOVeComputing.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/pacpusbase/!svn/ver/839/trunk/PACPUS/include/2DLidarObjectDetection/AlascaLOVeComputing.h
+END
+AlascaDataModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/pacpusbase/!svn/ver/839/trunk/PACPUS/include/2DLidarObjectDetection/AlascaDataModule.h
+END
+Plot2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/pacpusbase/!svn/ver/791/trunk/PACPUS/include/2DLidarObjectDetection/Plot2D.h
+END
+AlascaInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/pacpusbase/!svn/ver/793/trunk/PACPUS/include/2DLidarObjectDetection/AlascaInterface.h
+END
+AlascaViewer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/pacpusbase/!svn/ver/791/trunk/PACPUS/include/2DLidarObjectDetection/AlascaViewer.h
+END
+AlascaViewer3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/791/trunk/PACPUS/include/2DLidarObjectDetection/AlascaViewer3D.h
+END
+DataExport2Txt.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/pacpusbase/!svn/ver/794/trunk/PACPUS/include/2DLidarObjectDetection/DataExport2Txt.h
+END

@@ -1,0 +1,55 @@
+ 
+/*********************************************************************
+//  created:    2008/3/4 - 11:06
+//  filename:   dbtTypes.itm
+//
+//  author:     Gerald Dherbomez
+//              Copyright Heudiasyc UMR UTC/CNRS 6599
+// 
+//  version:    $Id: $
+//
+//  purpose:    List of all known LRC types
+//				This notation aims at simplifying maintenance
+//				Items used in the LrcTypeEnum enum
+//
+*********************************************************************/
+
+// PolarX
+ITEM(DbtGGA)
+ITEM(DbtGST)
+ITEM(DbtGSV)
+ITEM(DbtVTG)
+ITEM(DbtZDA)
+// cameras
+ITEM(DbtImage320x240_24bits)
+ITEM(ImageIndex)
+// Can frame
+ITEM(DbtCarmen_rawcan)
+ITEM(DbtLat_dyn)
+ITEM(DbtOdometry)
+ITEM(DbtSteering_wheel)
+//suspension
+ITEM(DbtWheelspeed)
+// lidar
+ITEM(DbtAlasca)
+ITEM(DbtVelodyne)
+// GPS
+ITEM(DbtApplanix)
+ITEM(SynchroGPS)
+// Fluence
+ITEM(DbtFluenceLowSpeed)
+ITEM(DbtFluenceFrontWheelspeed)
+ITEM(DbtFluenceRearWheelspeed)
+ITEM(DbtFluenceGears)
+ITEM(DbtFluenceKinematics)
+ITEM(DbtFluenceSteeringWheel)
+// Mobileye
+ITEM(DbtMobileyeObstacles)
+ITEM(DbtMobileyeLanes)
+//
+ITEM(DbtPPS)
+ITEM(DbtSerie)
+
+ITEM(DbtVG700)
+
+ITEM(DbtSpanCpt)

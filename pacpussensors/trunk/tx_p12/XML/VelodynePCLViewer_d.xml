@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pacpus>
+    <components>
+        <computingComponent
+            type="ComputingComponent"
+        />
+        <velodyneInterface
+            type="VelodyneInterface"
+            output_file="false"
+            output_dbt2txt="false"
+            logFilePath="velodyne.log"
+            xmin="-30"
+            xmax="30"
+            ymin="-30"
+            ymax="30"			
+            dx="0.5"
+            dy="0.5"
+            rmin="0"
+            rmax="30"
+            thmin="-180"
+            thmax="180"
+            dr="0.5"
+            dth="1"
+        />
+    </components> 
+
+    <parameters>
+        <plugins list="libSensorComponent_d.so" />
+    </parameters>
+</pacpus>
+

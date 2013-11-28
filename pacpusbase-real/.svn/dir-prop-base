@@ -1,0 +1,7 @@
+K 13
+svn:externals
+V 98
+pacpusdev https://devel.hds.utc.fr/svn/pacpusdev
+pacpusbin https://devel.hds.utc.fr/svn/pacpusbin
+
+END

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/pacpusbase/!svn/ver/1312/trunk/driver
+END
+PosixSerialPort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pacpusbase/!svn/ver/1080/trunk/driver/PosixSerialPort.cpp
+END
+win32SerialPort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pacpusbase/!svn/ver/1278/trunk/driver/win32SerialPort.cpp
+END
+AbstractSerialPort.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pacpusbase/!svn/ver/1230/trunk/driver/AbstractSerialPort.cpp
+END
+ntcan.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pacpusbase/!svn/ver/1312/trunk/driver/ntcan.h
+END
+vxlapi.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pacpusbase/!svn/ver/1257/trunk/driver/vxlapi.h
+END
+NiCanDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pacpusbase/!svn/ver/869/trunk/driver/NiCanDriver.h
+END
+EsdCanDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pacpusbase/!svn/ver/1312/trunk/driver/EsdCanDriver.cpp
+END
+XLVectorCanDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pacpusbase/!svn/ver/1210/trunk/driver/XLVectorCanDriver.h
+END
+PosixSerialPort.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pacpusbase/!svn/ver/954/trunk/driver/PosixSerialPort.h
+END
+win32SerialPort.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pacpusbase/!svn/ver/1277/trunk/driver/win32SerialPort.h
+END
+CanDriverBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pacpusbase/!svn/ver/1069/trunk/driver/CanDriverBase.h
+END
+AbstractSerialPort.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/pacpusbase/!svn/ver/1230/trunk/driver/AbstractSerialPort.h
+END
+libpcan.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pacpusbase/!svn/ver/925/trunk/driver/libpcan.h
+END
+PeakCanDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pacpusbase/!svn/ver/932/trunk/driver/PeakCanDriver.cpp
+END
+EsdCanDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pacpusbase/!svn/ver/1312/trunk/driver/EsdCanDriver.h
+END
+CanDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pacpusbase/!svn/ver/1312/trunk/driver/CanDriver.h
+END
+PeakCanDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pacpusbase/!svn/ver/927/trunk/driver/PeakCanDriver.h
+END
+dataFrame.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pacpusbase/!svn/ver/869/trunk/driver/dataFrame.cpp
+END
+pcan.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/pacpusbase/!svn/ver/925/trunk/driver/pcan.h
+END
+dataFrame.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pacpusbase/!svn/ver/872/trunk/driver/dataFrame.h
+END
+VectorCanDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pacpusbase/!svn/ver/1203/trunk/driver/VectorCanDriver.cpp
+END
+VCanD.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pacpusbase/!svn/ver/869/trunk/driver/VCanD.h
+END
+NiCanDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pacpusbase/!svn/ver/869/trunk/driver/NiCanDriver.cpp
+END
+XLVectorCanDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pacpusbase/!svn/ver/1258/trunk/driver/XLVectorCanDriver.cpp
+END
+VectorCanDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pacpusbase/!svn/ver/1203/trunk/driver/VectorCanDriver.h
+END
+NIDAQmx.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pacpusbase/!svn/ver/874/trunk/driver/NIDAQmx.h
+END
