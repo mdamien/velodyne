@@ -6,9 +6,9 @@
 #Instructions to use it with Pacpus
 
 ##Compile & Install Pacpus
-https://devel.hds.utc.fr/svn/pacpusframework/
-https://devel.hds.utc.fr/svn/pacpusbase/
-https://devel.hds.utc.fr/svn/pacpussensors/
+https://devel.hds.utc.fr/svn/pacpusframework/  
+https://devel.hds.utc.fr/svn/pacpusbase/  
+https://devel.hds.utc.fr/svn/pacpussensors/  
 
 See instructions on the wiki because things are moving at the moment
 
