@@ -1,6 +1,7 @@
 #Instructions to use it without Pacpus
 
-Install PCL and compile & run any of the test_*.cpp file
+	Install PCL
+	Compile & run any of the test_*.cpp file linked with PCL
 
 #Instructions to use it with Pacpus
 
