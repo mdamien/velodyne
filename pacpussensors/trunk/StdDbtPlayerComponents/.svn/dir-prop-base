@@ -1,8 +1,0 @@
-K 10
-svn:ignore
-V 35
-*Plugin.cpp
-*Plugin.h
-*Plugin.json
-
-END

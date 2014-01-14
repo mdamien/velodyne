@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<pacpus>
-	<components>
-		<polarx type="GpsComponent" port="COM1" baudrate="115200" bytesize="8" parity="0" stopbits="1"/>
-	</components>
-	<cam type="Camera1394" node="0" format="0" mode="1" framerate="3"/>
-	<parameters/>
-</pacpus>

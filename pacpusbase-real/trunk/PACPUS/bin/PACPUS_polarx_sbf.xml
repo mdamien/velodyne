@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<pacpus>
- <components>
-    <PolarX type="SeptentrioComponent" recording="false" receiverPort="28784" receiverIP="172.17.131.19" sbfFrame="Meas+MeoRaw" computeGPSTk="false" showUI="false"/>
- </components>
- <parameters/>
-</pacpus>

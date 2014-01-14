@@ -1,7 +1,0 @@
-[disparity_Map]
-disparityMax=50
-horopter=50
-correlationWindow=9
-disparityThreshold=2
-scale=0
-mode=MONOSCALE

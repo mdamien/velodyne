@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<pacpus>
- <components>
-  <sony type="Camera1394" node="0" format="0" mode="3" framerate="2" recording="true" recordFormat="ppm" reverseImage="true" display="false" zoom="64"/>
-  <alasca type="AlascaComponent" alascaIP="172.17.130.205" alascaPort="12000" recording="1"/>
- </components>
- <parameters/>
-</pacpus>

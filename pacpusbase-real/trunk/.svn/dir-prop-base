@@ -1,8 +1,0 @@
-K 10
-svn:ignore
-V 42
-*Plugin.cpp
-*Plugin.h
-CMakeLists.txt.user
-
-END
